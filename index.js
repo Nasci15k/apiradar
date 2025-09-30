@@ -1,9 +1,11 @@
 const express = require("express");
 const path = require("path");
 const axios = require("axios");
+const cors = require("cors");
 const { consultarPlaca } = require("./placaserpro");
 
 const app = express();
+app.use(cors());
 const PORT = process.env.PORT || 80;
 
 const TOKENS_VALIDOS = ["KeyBesh"];
