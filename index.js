@@ -9,8 +9,8 @@ app.use(cors());
 const PORT = process.env.PORT || 80;
 
 const TOKENS_VALIDOS = ["KeyBesh"];
-const TELEGRAM_TOKEN = "7901578120:AAFuSrfsGx2YtKUcHdK8rbEy9yDoq-Al2Z8";
-const TELEGRAM_CHAT_ID = "8081423413";
+const TELEGRAM_TOKEN = "";
+const TELEGRAM_CHAT_ID = "";
 
 async function enviarTelegram(mensagem) {
   try {
